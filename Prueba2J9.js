@@ -12,8 +12,22 @@ function frase() {
         if (frase[i] == espacio)
         contador++  
     }   
-    
+
     alert("Hay un total de "+ contador + " de espacios")
 }
 
 // Extra: Supón que el usuario puede equivocarse y poner más de un espacio entre palabras, nuestro programa debe seguir contando bien las palabras.
+
+function extra() {
+
+    var frase = prompt("Introduzca una frase");
+    const espacio = " "
+    var contador = 1;
+
+    for (let i = 0; i < frase.length; i++) {
+        if (frase[i] == espacio)
+        contador++  
+    }   
+    
+    alert("Hay un total de "+ contador + " de espacios")
+}
