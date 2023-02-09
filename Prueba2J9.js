@@ -31,3 +31,6 @@ function extra() {
     
     alert("Hay un total de "+ contador + " de espacios")
 }
+
+// la idea sería crear un primer condicional con while en el que mientras que frase[i] y frase[i+1] coincida un espacio haga un solo contador.
+
